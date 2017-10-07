@@ -1,121 +1,84 @@
 body {
-	height: auto;
-	background-color: #777;
-	color: grey;
-	font-family: Arial;
-}
-
-#wrapper {
 
 	width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #777;
+    font-size: 18px;
+    color: #777;
+    text-align: center;
+    font-family: Arial;
 }
 
 #header {
-
-	padding: 30px;
-	margin: 10px;
 	background-color: #ebebeb;
-	text-align: center;
+	padding: 30px;
+	margin-bottom: 10px;
+
 
 }
-
-.footer {
-
-	padding: 30px;
-	margin: 10px;
-	width: 880px;
-	height: 30px;
-	background-color: #ebebeb;
-	text-align: center;
-	position: absolute;
-	bottom: 0
-
-}
-
-
 
 #nav {
-
-	padding: 30px;
-	margin: 10px;
 	background-color: #ebebeb;
-	text-align: center;
+	padding: 30px;
+	margin-bottom: 10px;
+
+}
+
+#center {
 
 }
 
 #section {
 	float: left;
+	background-color: #ebebeb;
 	width: 495px;
-	padding: 30px;
-	margin: 10px;
-	background-color: #ebebeb;
-	text-align: center;
-
+	height: 200px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	
 
 }
 
-aside {
+#aside {
 	float: left;
-	padding: 30px;
-	margin: 10px;
-	padding-right: 192px;
 	background-color: #ebebeb;
-	text-align: right;
-
+	height: 200px;
+	width: 455px;
+	margin-bottom: 10px;
 }
 
-
-article {
-
-	/*border: 5px;*/
-	padding: 15px;
-	margin-bottom: 5px;
+#article {
+	float: left;
 	background-color: #777;
-	text-align: center;
+	margin-left: 50px;
+	margin-top: 20px;
 	color: #ebebeb;
-}
-
-#article1 {
-
-	/*border: 5px;*/
-	padding: 15px;
-	margin-bottom: 5px;
-	background-color: #ebebeb;
-	text-align: center;
-	color: #ebebeb;
-}
-
-#headings{
 	padding: 20px;
-	margin: 5px;
+	width: 75%
+
+}
+
+#headings {
 	background-color: #ebebeb;
-	text-align: center;
 	color: #777;
+	padding: 10px;
+	margin-bottom: 5px;
+	width: 95%
 
 }
 
 #paragraph {
-	padding: 20px;
-	margin: 5px;
 	background-color: #ebebeb;
-	text-align: center;
 	color: #777;
-}
+	padding: 10px;
+	width: 95%
 
-#headings1{
-	padding: 20px;
-	margin: 5px;
+}
+#footer {
+	clear: both;
+	overflow: auto;
 	background-color: #ebebeb;
-	text-align: center;
-	color: #ebebeb;
-
-}
-
-#paragraph1{
-	padding: 20px;
-	margin: 5px;
-	background-color: l#ebebeb;
-	text-align: center;
-	color: #ebebeb;
+	padding: 30px;
 
 }
